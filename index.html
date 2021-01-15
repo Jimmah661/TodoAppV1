@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <title>ToDo List</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Todo List</h1>
+    <input id="todoInput" placeholder="New Todo"></input>
+    <div class="row">
+      <button id="submitButton" type="submit">Save Todo</button>
+    </div>
+    <ul id="todoList"></ul>
+  </div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+
+  <script src='./script.js'></script>
+</body>
+</html>
